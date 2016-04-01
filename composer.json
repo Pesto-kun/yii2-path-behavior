@@ -1,0 +1,22 @@
+{
+  "name": "pesto/yii2-path-behavior",
+  "type": "yii2-extension",
+  "description": "Automatic generation url path for the model while saving model/",
+  "keywords": ["yii2", "behavior", "path", "url"],
+  "license": "none",
+  "authors": [
+    {
+      "name": "Viktor Kislyak",
+      "email": "pest11s@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "2amigos/yii2-transliterator-helper": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "pesto\\path\\": ""
+    }
+  }
+}
